@@ -7,41 +7,40 @@ html{
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 .hero{
 background-color: #1f2937;
-
+padding-bottom: 50px;
 }
 
-.header{
+.navbar{
 font-size: 24px;
 color: #f9faf8;
-flex: auto;
-padding-top: 0;
 display: flex;
+justify-content: space-between;
+padding-left: 50px;
+padding-right: 50px;
+padding-bottom: 25px;
+align-items: center;
 }
 
-.logo{
-padding-top: 0;
-padding-left: 100px;
-margin: 10px;
-}
-
-.item{
+.navlinks{
     font-size: 18px;
     color: #e5e7eb;
     margin: 10px;
     display: flex;
-    align-items: center;
 }
 
-.push{
-margin-left: auto;
+.navlinkpadding{
+    padding: 25px;
 }
 
+a:link, a:visited{
+    color: #f9faf8;
+}
 
 
 .main{
@@ -57,35 +56,61 @@ margin-left: auto;
 
 .container{
     display: flex;
-    flex-direction: row;
-    height: 300px;
-  
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
 }
 
 .mainleft{
-  
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 auto;
     width: 33%;
-    
 }
 
 .mainright{
-  
-  
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin: 0 auto;
+    align-items: center;
     width: 33%;
 }
 
+.mainText{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.subText{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .image{
-    height: 75%;
-    object-fit: contain;
+    height: 250px;
+    width: 250px;
+}
+
+.randomText{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.randomImage{
+    height: 125px;
+    width: 125px;
+    background: cornflowerblue;
+}
+
+.verticalContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.randomSubtext{
+    text-align: center;
 }
 
 .text2{
@@ -94,24 +119,6 @@ margin-left: auto;
     font-weight: bolder;
     color: #1f2937;
     margin: 50px;
-}
-
-.imagesContainer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-}
-
-.imageContainer{
-    height: 100px;
-    width: 100px;
-    background: cyan;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .random{
@@ -123,32 +130,40 @@ margin-left: auto;
 }
 
 .quoteText{
-    width: 45%;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
     text-align: center;
-    margin: 45px;
-    display: flex;
+}
+
+.quoteName{
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
 }
 
 .bottom{
     margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.cta{
-width: 55%;
-display: flex;
-justify-content: center;
-align-content: center;
-gap: 65px;
-background: #3882f6;
+.bottomTextMain{
+color: white;
+}
+
+.bottomTextSub{
+color: white;
 }
 
 .ctaButton{
     display: flex;
     align-items: center;
+    justify-content: center;
     background: #3882f6;
 }
 
@@ -163,6 +178,11 @@ background: #3882f6;
 .footer{
     background: #1f2937;
     color: white;
+}
+
+.margin{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
