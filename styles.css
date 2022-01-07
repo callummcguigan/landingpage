@@ -1,0 +1,168 @@
+html{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.hero{
+background-color: #1f2937;
+
+}
+
+.header{
+font-size: 24px;
+color: #f9faf8;
+flex: auto;
+padding-top: 0;
+display: flex;
+}
+
+.logo{
+padding-top: 0;
+padding-left: 100px;
+margin: 10px;
+}
+
+.item{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.push{
+margin-left: auto;
+}
+
+
+
+.main{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.second{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+  
+}
+
+.mainleft{
+  
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 33%;
+    
+}
+
+.mainright{
+  
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 33%;
+}
+
+.image{
+    height: 75%;
+    object-fit: contain;
+}
+
+.text2{
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 50px;
+}
+
+.imagesContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.imageContainer{
+    height: 100px;
+    width: 100px;
+    background: cyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.random{
+    margin-bottom: 50px;
+}
+
+.quote{
+    background: #e5e7eb;
+}
+
+.quoteText{
+    width: 45%;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+    margin: 45px;
+    display: flex;
+}
+
+.bottom{
+    margin: 25px;
+}
+
+.cta{
+width: 55%;
+display: flex;
+justify-content: center;
+align-content: center;
+gap: 65px;
+background: #3882f6;
+}
+
+.ctaButton{
+    display: flex;
+    align-items: center;
+    background: #3882f6;
+}
+
+.button{
+    padding: 10px;
+    color: white;
+    background: #3882f6;
+    border-color: white;
+    border-radius: 25px;
+}
+
+.footer{
+    background: #1f2937;
+    color: white;
+}
+
+
